@@ -144,7 +144,8 @@
     }
 
     .about-hotel-text h2{
-        font-size: 2.3rem;
+        font-size: 1.9rem;
+        text-align: center;
        
     }
 
@@ -156,14 +157,13 @@
 
     /* OUR GUEST */
     .guest-header{
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 2rem 0 1.5rem 0;
     }
 
 
 
     .guest-one{
-        /* padding: 2rem 0; */
         padding: 0;
         margin: 1rem 1rem 1rem 1rem;
 
@@ -365,6 +365,12 @@
         order: 1;
         flex: 1;
         padding: 1rem;
+    }
+
+    .about-hotel-text h2{
+        font-size: 2rem;
+        text-align: center;
+       
     }
 
 
