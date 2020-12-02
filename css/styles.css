@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    text-decoration: none;
+    list-style: none;
+    overflow: none;
+    
+    
+}
+
+:scope{
+    --black:#000;
+    --white:#ffffff;
+    --light-black:#202020;
+    --orange-color:#c04729;
+    --light-grey:#f7f7f7;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+ul.nav-list{
+    display: flex;
+    margin: 0 11rem 0 0;
+}
+
+
+div.nav-item li{
+    font-size: 1.2rem;
+    color: var(--white);
+    padding: 1.5rem 1rem;
+}
+
+div.nav-item li:hover{
+    font-size: 1.2rem;
+    color: var(--orange-color);
+    background-color: var(--light-black);
+    padding: 1.5rem 1rem;
+}
+
+div#nav-header h1{
+    font-size: 2.1rem;
+    padding: 1.5rem;
+    margin: 0 0 0 7.5rem;
+}
+
+
+div.nav-item li, div#nav-header h1{
+    color: var(--white);
+}
+
+ul div a.current li {
+    background-color: var(--light-black);
+    color: var(--orange-color);
+}
+
+
+
+/* Showcase */
+
+.showcase-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.showcase{
+    background: url('../img/showcase2.jpg') no-repeat center center/cover ; 
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 90vh;
+}
+
+
+.showcase-header h1{
+    font-size: 5rem;
+    color: var(--white);
+
+}
+
+.showcase-text {
+    margin: 3rem 0 2rem 0;
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+span.show{
+    color: var(--orange-color);
+}
+
+
+
+.btn-dark a button{
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+.btn-dark a button:hover{
+    background-color: var(--orange-color);
+    color: var(--black);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+/* Hotel History */
+#about-hotel{
+    display: flex;
+}
+
+
+.history-img{
+    flex: 1.1;
+    background: url('../img/hotel-img3.jpg') no-repeat center center/cover;
+}
+
+
+.hotel-history{
+    flex: 1;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 5rem 1.5rem;
+    text-align: center;
+}
+
+.history-heading h2{
+    margin-bottom: 1.5rem;
+    font-size: 2.4rem;
+}
+
+.show-edit{
+    color: var(--orange-color);
+}
+
+.history-text p {
+    font-size: 1.1rem;
+}
+
+
+.btn-light a button{
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+.btn-light a button:hover{
+    background-color: var(--orange-color);
+    color: var(--white);
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+/* What we do */
+#what-we-do{
+    display: flex;
+    text-align: center;
+}
+
+
+.location{
+    flex: 1;
+    padding:3rem 5rem 5rem;
+    background-color: var(--white);
+
+}
+
+.meals{
+    flex: 1;
+    padding:3rem 5rem 5rem;
+    background-color: var(--orange-color);
+}
+
+.fitness{
+    flex: 1;
+    padding: 3rem 5rem 5rem;
+    background-color: var(--white);
+}
+
+.location h3, .meals h3, .fitness h3{
+    margin: 1rem 0 2rem 0;
+    font-weight: bolder;
+}
+
+
+.location p, .meals p, .fitness p{
+    font-size: 1.1rem;
+}
+
+
+
+/* Footer */
+footer{
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+/* ABOUT PAGE */
+#about-hotel-showcase{
+    display: flex;
+}
+
+
+.about-hotel-text{
+    flex: 1;
+    padding: 5rem 8.5rem;
+}
+
+.about-hotel-img{
+    flex: 1.5;
+    padding: 2.5rem 11.5rem 3rem 0;
+  
+}
+
+
+.about-hotel-text h2{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+span.about-show{
+    color: var(--orange-color);
+}
+
+.about-hotel-text p{
+    font-size: 1.1rem;
+    /* padding-bottom: 2rem; */
+}
+
+.about-hotel-img img{
+    border-radius: 100%;
+}
+
+
+
+
+
+/* OUR GUEST */
+#our-guests{
+    background: url('../img/showcase1.jpg') no-repeat center center/cover;
+    height: 90vh;
+    text-align: center;
+    
+}
+
+.guest-header{
+    font-size: 2rem;
+    color: var(--white);
+    padding: 6.5rem 0 3rem 0;
+}
+
+.guest-one{
+    background-color:var(--orange-color);
+    border-radius: 10px;
+    padding: 1rem 0;
+    display: flex;
+    margin: 0 12rem 2rem 9.5rem;
+    
+}
+
+.guess-one-img img{
+    width: 50%;
+    border-radius: 100%;
+    margin-top: 1rem;
+
+}
+
+.guest-text p{
+    text-align: left;
+    padding: 0.7rem 0.5rem 0.7rem 0;
+}
+
+
+.guess-one-img{
+    flex: 1;
+
+}
+
+.guest-text {
+    flex: 7;
+}
+
+
+
+
+
+
+/* CONTACT US PAGE */
+#contact-us{
+    background-color: var(--light-grey);
+    padding: 1.5rem 10.9rem 1.5rem 9rem;
+}
+
+.contact-heading h1{
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.count-heading-edit{
+    color: var(--orange-color);
+}
+
+.contact-info{
+    margin-bottom: 1rem;
+}
+
+
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    outline-color: var(--orange-color);
+   
+}
+
+input[type="text"], input[type="email"]{
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.form-btn a button{
+    background-color: var(--black);
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1rem;
+    border-radius: 1.5px;
+}
+
+.form-btn a button:hover{
+    background-color: var(--orange-color);
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+    color: var(--black);
+    font-size: 1rem;
+    border-radius: 1.5px;
+}
+
+
+
+
+/* Find Us */
+#find-us{
+    display: flex;
+    text-align: center;
+    background-color: var(--light-black);
+    color: var(--white);
+}
+
+.locate-hotel{
+    flex: 1;
+    padding: 3rem 0 3rem 0;
+}
+
+.locate-hotel h3, .phone-number h3,
+.hotel-email h3{
+    padding-top: 1rem;
+}
+
+.locate-hotel p, .phone-number p,
+.hotel-email p{
+    padding-top: 2rem;
+}
+
+.phone-number{
+    flex: 1;
+    padding: 3rem 0 3rem 0;
+}
+
+.hotel-email{
+    flex: 1;
+    padding: 3rem 0 3rem 0;
+}

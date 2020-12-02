@@ -1,0 +1,541 @@
+/* Mobile */
+@media(max-width:500px) {
+
+    /* Navbar */
+    div#nav-header h1{
+        margin: 0;
+    }
+
+   
+    ul.nav-list{
+        margin: 0;
+    } 
+
+    /* Showcase */
+    .showcase{
+        background: url('../img/showcase6.jpg') no-repeat center center/cover ; 
+    }
+    .show{
+        display: block;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+    
+    .showcase-header h1{
+        font-size: 3rem;
+    }
+
+    .showcase-text {  
+        margin: 1.5rem 0 1rem 0;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .showcase-text-cutoff{
+        display: none;
+    }
+
+
+
+    /* Hotel History */
+    .hotel-history{
+        padding: 5rem 1rem;
+    }
+
+    #about-hotel{
+        flex-direction: column;
+        
+    }
+
+    .history-img img{
+        display: none;
+    }
+
+    .history-heading h2{
+        font-size: 1.5rem;
+    }
+
+    .show-edit{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .history-cutoff{
+        display: none;
+
+    }
+
+    .history-text p {
+        font-size: 1rem;
+    }
+
+    .btn-light a button{  
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        
+    }
+
+
+    .btn-light a button:hover{
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+      
+    }
+
+
+
+
+    /* What we do */
+    #what-we-do{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .location{
+        
+        padding:2rem 3rem 3rem;
+       
+    
+    }
+    
+    .meals{
+        padding:2rem 3rem 3rem;
+    }
+    
+    .fitness{
+        padding:2rem 3rem 3rem;
+    }
+
+    .location h3, .meals h3, .fitness h3{
+        margin: 0.5rem 0 1rem 0;
+        
+    }
+
+
+
+    /* Footer */
+    footer{
+        padding: 0.5rem 0;
+        font-size: 0.7rem;
+    }
+
+
+
+
+    /* ABOUT PAGE */
+    #about-hotel-showcase{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-hotel-text{
+        order: 2;
+        flex: 1;
+        padding: 1rem 2rem;
+
+        text-align: justify;
+    }
+    
+    .about-hotel-img{
+        order: 1;
+        flex: 1;
+        padding: 1rem;
+    }
+
+    .about-hotel-text h2{
+        font-size: 2.3rem;
+       
+    }
+
+    .about-cutoff{
+        display: none;
+    }
+
+
+
+    /* OUR GUEST */
+    .guest-header{
+        font-size: 1.2rem;
+        padding: 2rem 0 1.5rem 0;
+    }
+
+
+
+    .guest-one{
+        /* padding: 2rem 0; */
+        padding: 0;
+        margin: 1rem 1rem 1rem 1rem;
+
+    }
+    
+    .guess-one-img img{
+        width: 100%;
+        margin: 0.6rem 0.5rem;
+    
+    }
+    
+    .guest-text p{
+        text-align: left;
+        padding: 1rem 1rem;
+    }
+
+    .guest-cutoff{
+        display: none;
+    }
+
+    .guest-media{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+
+
+
+    /* CONTACT US PAGE */
+    #contact-us{
+        padding: 1.5rem;
+    }
+
+    /* Find us */
+    .locate-hotel h3, .phone-number h3,
+    .hotel-email h3{
+   font-size: 0.9rem;
+    }
+
+    .locate-hotel p, .phone-number p,
+    .hotel-email p{
+    padding: 1rem 0.5rem 0.1rem 0.5rem;
+    font-size: 0.8rem;
+    }
+
+
+    .locate-hotel i, .phone-number i, .hotel-email i{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media(min-width:501px) and (max-width:768px) {
+      /* Navbar */
+    div#nav-header h1{
+        margin: 0;
+    }
+   
+    ul.nav-list{
+        margin: 0;
+    } 
+
+     /* Showcase */
+     .showcase{
+        background: url('../img/showcase7.jpg') no-repeat center center/cover ; 
+    }
+
+     .show{
+        display: block;
+        text-align: center;
+        padding-bottom: 3.5rem;
+    }
+
+    .showcase-text {  
+        margin: 1.5rem 0 1rem 0;
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+    .showcase-text-cutoff{
+        display: none;
+    }
+
+
+    /* Hotel History */
+    .hotel-history{
+        padding: 5rem 1.5rem;
+    }
+
+
+    #about-hotel{
+        flex-direction: column;
+        /* text-align: justify; */
+    }
+
+    .history-img img{
+        display: none;
+    }
+
+    .history-heading h2{
+        font-size: 2rem;
+    }
+
+    .show-edit{
+        font-size: 2rem;
+    }
+
+    .history-cutoff{
+        display: none;
+
+    }
+
+    .history-text p {
+        font-size: 1rem;
+    }
+
+    
+    .btn-light a button{  
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+        
+    }
+
+
+    .btn-light a button:hover{
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+      
+    }
+
+
+
+     /* What we do */
+     #what-we-do{
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .location{
+        padding:2rem 3rem 3rem; 
+    }
+    
+    .meals{
+        padding:2rem 3rem 3rem;
+    }
+    
+    .fitness{
+        padding:2rem 3.5rem 4rem;  
+    }
+
+
+    .location h3, .meals h3, .fitness h3{
+        margin: 0.5rem 0 1rem 0;
+    }
+
+    /* Footer */
+    footer{
+        padding: 0.5rem 0;
+        font-size: 0.7rem;
+    }
+
+
+
+
+
+
+      /* ABOUT PAGE */
+      #about-hotel-showcase{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-hotel-text{
+        order: 2;
+        flex: 1;
+        padding: 1rem 2rem;
+
+        text-align: justify;
+    }
+    
+    .about-hotel-img{
+        order: 1;
+        flex: 1;
+        padding: 1rem;
+    }
+
+
+
+     /* OUR GUEST */
+     .guest-header{
+        font-size: 1.2rem;
+        padding: 2rem 0 1.5rem 0;
+    }
+
+
+
+    .guest-one{
+        padding: 0.5rem 0;
+        margin: 1rem 1rem 1rem 1rem;
+
+    }
+    
+    .guess-one-img img{
+        width: 100%;
+        margin: 0.6rem 0.5rem;
+    
+    }
+    
+    .guest-text p{
+        text-align: left;
+        padding: 1rem 1rem;
+    }
+
+    /* .guest-cutoff{
+        display: none;
+    } */
+
+    .guest-media{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+
+
+
+
+
+        /* CONTACT US PAGE */
+    #contact-us{
+    padding: 1.5rem;
+    }
+
+
+    /* Find us */
+    .locate-hotel h3, .phone-number h3,
+    .hotel-email h3{
+   font-size: 0.9rem;
+    }
+
+    .locate-hotel p, .phone-number p,
+    .hotel-email p{
+    padding: 1rem 0.5rem 0.1rem 0.5rem;
+    font-size: 0.8rem;
+    }
+
+
+    .locate-hotel i, .phone-number i, .hotel-email i{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Normal Screen */
+@media(min-width:769px) and (max-width:1024px) {
+      /* Navbar */
+    div#nav-header h1{
+        margin: 0;
+    }
+
+    ul.nav-list{
+        margin: 0;
+    } 
+
+     /* Showcase */
+     .showcase{
+        background: url('../img/showcase1.jpg') no-repeat center center/cover ; 
+    }
+
+     .show{
+        text-align: center;
+        padding-bottom: 3.5rem;
+    }
+
+    .showcase-text {  
+        margin: 1.5rem 0 1rem 0;
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+
+
+    /* Hotel History */
+    .history-heading h2{
+        font-size: 2rem;
+    }
+
+    .show-edit{
+        font-size: 2rem;
+    }
+
+    .history-cutoff{
+        display: none;
+
+    }
+
+    .history-text p {
+        font-size: 1rem;
+    }
+
+
+
+
+
+      /* ABOUT PAGE */
+      #about-hotel-showcase{
+        display: flex;
+    }
+
+    .about-hotel-text{
+        /* order: 2; */
+        flex: 1;
+        padding: 3rem 2rem;
+        text-align: justify;
+    }
+    
+    .about-hotel-img{
+        /* order: 1; */
+        flex: 1;
+        padding: 3rem 1rem;
+    }
+
+
+
+    /* CONTACT US PAGE */
+    #contact-us{
+        padding: 1.5rem;
+    }
+
+
+}
+
+
+
+
+/* @media(min-width:1025px) {
+    .about-hotel-text{
+        flex: 1;
+        padding: 6rem 2rem;
+        text-align: justify;
+    }
+    
+    .about-hotel-img{
+        flex: 1;
+        padding: 3rem 2rem;
+    }
+} */
