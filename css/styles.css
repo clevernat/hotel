@@ -269,6 +269,8 @@ footer {
 
 
 
+
+
 /* ABOUT PAGE */
 #about-hotel-showcase {
     display: flex;
@@ -298,7 +300,6 @@ span.about-show {
 
 .about-hotel-text p {
     font-size: 1.1rem;
-    /* padding-bottom: 2rem; */
 }
 
 .about-hotel-img img {
@@ -374,7 +375,8 @@ span.about-show {
     color: var(--orange-color);
 }
 
-.contact-info {
+.contact-info,input[type="text"],
+input[type="email"] {
     margin-bottom: 1rem;
 }
 
@@ -390,29 +392,26 @@ textarea {
 input[type="text"],
 input[type="email"] {
     padding: 0.4rem;
-    margin-bottom: 1rem;
+}
+
+.form-btn a button,.form-btn a button:hover{
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 1.5px;
 }
 
 .form-btn a button {
     background-color: var(--black);
-    padding: 0.5rem 2rem;
-    margin-top: 1rem;
-    border: none;
-    cursor: pointer;
     color: var(--white);
-    font-size: 1rem;
-    border-radius: 1.5px;
+    
 }
 
 .form-btn a button:hover {
     background-color: var(--orange-color);
-    padding: 0.5rem 2rem;
-    margin-top: 1rem;
-    border: none;
-    cursor: pointer;
     color: var(--black);
-    font-size: 1rem;
-    border-radius: 1.5px;
 }
 
 
@@ -426,10 +425,6 @@ input[type="email"] {
     color: var(--white);
 }
 
-.locate-hotel {
-    flex: 1;
-    padding: 3rem 0 3rem 0;
-}
 
 .locate-hotel h3,
 .phone-number h3,
@@ -443,12 +438,7 @@ input[type="email"] {
     padding-top: 2rem;
 }
 
-.phone-number {
-    flex: 1;
-    padding: 3rem 0 3rem 0;
-}
-
-.hotel-email {
+.locate-hotel,.phone-number,.hotel-email {
     flex: 1;
     padding: 3rem 0 3rem 0;
 }
