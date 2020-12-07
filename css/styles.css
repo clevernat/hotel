@@ -12,6 +12,7 @@
 
 :scope {
     --black: #000;
+    --light-dark:rgba(0, 0, 0, 0.938);
     --white: #ffffff;
     --light-black: #202020;
     --orange-color: #c04729;
@@ -27,7 +28,7 @@ ul.nav-list {
 
 nav {
     justify-content: space-between;
-    background-color: var(--black);
+    background-color: var( --light-dark);
     position: sticky;
     top: 0;
     z-index: 1;
